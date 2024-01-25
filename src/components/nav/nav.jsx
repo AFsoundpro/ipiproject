@@ -18,7 +18,7 @@ const BarraNavegacion = () => {
           <Link to="/nosotros">Nosotros</Link>
         </li>
         <li>
-          <Link to="/productos">Procutos</Link>
+          <Link to="/productos">Productos & Servicios</Link>
         </li>
         <li>
           <Link to="/contacto">Contacto</Link>

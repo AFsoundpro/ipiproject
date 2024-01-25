@@ -5,6 +5,7 @@ import Nosotros from './views/nosotros/nosotros';
 import Productos from './views/productos/productos';
 import Contacto from './views/contacto/contacto';
 import BarraNavegacion from './components/nav/nav';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path='/productos' element={<Productos />} />
         <Route path='/contacto' element={<Contacto />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }

@@ -1,16 +1,71 @@
-import React from "react";
-import logo from "/public/logo.png"
+// Home.js
 
-function Home() {
-    return (
-        
-        <div className='home'>
-            <section className="home">
-                <h4>SECTION 1</h4>
-            </section>
+import React from 'react';
+import './home.css'; // Importa los estilos específicos del componente
+import bodega from "../../../public/bodega.jpg"
+import Contact from '../../components/contact/contact';
+
+const Home = () => {
+  return (
+    <main>
+        <br />
+        <div className='img-container'>
+            <h1>imagen</h1>
+            <div>
+                <button>Boton 1</button>
+                <button>Boton 2</button>
+            </div>
         </div>
-        
-    )
-}
+        <br />
+        <div className="home-container">
+      <section className="hero-section">
+        <h1>Bienvenido a nuestra página de inicio</h1>
+        <p>Descubre lo que ofrecemos y encuentra lo que necesitas.</p>
+      </section>
+        <hr />
+      <section className="features-section">
+        <div className='div-info'>
+        <h2>Características destacadas</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos illum corporis commodi natus inventore, nulla, temporibus quia expedita consequatur hic labore veniam nesciunt quos!</p>
+        </div>
+        <hr />
+        <div className='div-img'>
+            <button>Button</button>
+            <h2>Imagen</h2>
+        </div>
+      </section>
+      <hr />
+      <section className='features-section'>
+        <div className='div-img'>
+            <button>Button</button>
+            <h2>Imagen</h2>
+        </div>
+        <hr />
+      <div className='div-info'>
+        <h2>Características destacadas</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos illum corporis commodi natus inventore, nulla, temporibus quia expedita consequatur hic labore veniam nesciunt quos!</p>
+        </div>  
+      </section>
+      <br />
+      <hr />
+      <br />
+        <section className='sec-3'>
+            <div className='circle-sec'>
+                <h3>imagen</h3>
+            </div>
+            <div>
+                <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veniam, suscipit numquam itaque vel optio excepturi, dolore temporibus adipisci pariatur quis saepe velit aut modi.</p>
+            </div>
+            <button>Button</button>
+        </section>  
+    </div>
+    <br />
+    <Contact />
+    <br />
+    </main>
+    
+  );
+};
 
-export default Home
+export default Home;

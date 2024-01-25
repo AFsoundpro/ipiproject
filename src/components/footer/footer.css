@@ -1,0 +1,14 @@
+/* Footer.css */
+
+footer {
+    background-color: whitesmoke ; /* Cambia a color plateado */
+    color: orange;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

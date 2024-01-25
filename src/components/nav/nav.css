@@ -1,13 +1,13 @@
 /* styles.css */
 
 nav {
-    background-color: rgb(192, 192, 192);
+    background-color: whitesmoke;
     display: flex;
     gap: 100px;
   }
 
   img {
-    width: 200px;
+    width: 280px;
     height: auto;
     
   }
@@ -32,6 +32,7 @@ nav {
     color: white;
     font-weight: bold;
     text-align: center;
+    color: orange;
   }
   
   a:hover {
