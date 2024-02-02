@@ -19,8 +19,8 @@ const Home = () => {
         <br />
         <div className="home-container">
       <section className="hero-section">
-        <h1>Bienvenido a nuestra página de inicio</h1>
-        <p>Descubre lo que ofrecemos y encuentra lo que necesitas.</p>
+        <h1>Bienvenido a nuestra página WEB</h1>
+        <p>Bienvenidos a I.P.I Serviprecorte Ltda - 30 Años de Excelencia en Productos Plásticos</p>
       </section>
         <hr />
       <section className="features-section">

@@ -1,0 +1,23 @@
+.main-contacto {
+    display: flex;
+    border: solid 4px darkcyan;
+    text-align: center;
+    gap: 20px;
+}
+
+.contactanos {
+    border: solid 3px darkolivegreen;
+    padding: 15px;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+}
+
+.main-form {
+    border: solid 3px darkolivegreen;
+    padding: 15px;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

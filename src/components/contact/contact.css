@@ -1,4 +1,25 @@
-.main {
-    border: solid 3px grey;
+.main-contact {
     display: flex;
+    background-color: whitesmoke;
+    gap: 15px;
+}
+
+.img-contact {
+    width: 33%;
+    border: solid 3px darkorange;
+}
+
+.img-contact img {
+    width: 200px;
+    height: auto;
+}
+
+.contact-contact {
+    width: 33%;
+    border: solid 3px darkcyan;
+}
+
+.contact-products {
+    width: 33%;
+    height: auto;
 }

@@ -1,8 +1,9 @@
 import React from "react";
+import "./contacto.css"
 
 function Contacto() {
     return (
-        <main className='home'>
+        <main className='contacto'>
             <div className='img-container'>
                 <h1>QUIENES SOMOS</h1>
                 <div>
@@ -10,42 +11,48 @@ function Contacto() {
                     <button>Botón 2</button>
                 </div>
             </div>
-            <section>
-                <div>
+            <section className="main-contacto">
+                <div className="contactanos">
                     <h2>CONTACTANOS</h2>
                     <div>
                         <h3>Telefonos</h3>
-                        <ul>
+                        
                             <li>fijo</li>
                             <li>Corporativo</li>
-                        </ul>
+                        
                     </div>
 
                     <div>
                         <h2>CORREO</h2>
                         <span>serviprecorte@gmail.com</span>
                     </div>
-                    <div>
+                    <div className="list">
                         <h2>HORARIO DE ATENCION</h2>
-                        <ul>
+                        
                             <li>lunes - viernes 8am -5pm</li>
                             <li>Sabado 8am - 1pm</li>
                             <li>Domingo - Cerrado</li>
-                        </ul>
+                        
                     </div>
                 </div>
-                <hr />
-                <div>
+                
+                <div className="main-form">
                     <h2>envia un mensaje</h2>
                     <p>El tiempo de respuesta es aproximadamente 24H aproximadamente</p>
                     <div>
                         <form action="#">
                             <input type="text" placeholder="Nombre"/>
+                            <br />
                             <input type="text" placeholder="Numero de telefono"/>
+                            <br />
                             <input type="text" placeholder="Correo electronic"/>
+                            <br />
                             <input type="text" placeholder="Nombre de empresa"/>
+                            <br />
                             <input type="text" placeholder="Ciudad"/>
+                            <br />
                             <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                            <br />
                             <button type="submit">SUBMIT</button>
                         </form>
                     </div>

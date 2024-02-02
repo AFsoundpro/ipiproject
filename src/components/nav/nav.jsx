@@ -8,11 +8,14 @@ import logo from "/public/logo.png"
 const BarraNavegacion = () => {
   return (
     <nav>
+      <Link to="/">
         <img src={logo} alt="" />
+      </Link>
+        
       
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Inicio</Link>
         </li>
         <li>
           <Link to="/nosotros">Nosotros</Link>
