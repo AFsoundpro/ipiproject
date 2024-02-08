@@ -9,18 +9,12 @@ const Home = () => {
   return (
     <main>
         <br />
-        <div className='img-container'>
-            <h1>imagen</h1>
-            <div>
-                <button>Boton 1</button>
-                <button>Boton 2</button>
-            </div>
-        </div>
-        <br />
         <div className="home-container">
       <section className="hero-section">
-        <h1>Bienvenido a nuestra página WEB</h1>
-        <p>Bienvenidos a I.P.I Serviprecorte Ltda - 30 Años de Excelencia en Productos Plásticos</p>
+        <h1>Bienvenidos a I.P.I Serviprecorte Ltda</h1>
+        <button>Boton 1</button>
+        <button>Boton 2</button>
+        <h2><b>30 Años de Excelencia en Productos Plásticos</b></h2>
       </section>
         <hr />
       <section className="features-section">

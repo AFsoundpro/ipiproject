@@ -1,5 +1,7 @@
 import React from "react";
 import "./contacto.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHouse, faAddressCard, faBoxesStacked, faPhone, faEnvelope, faBusinessTime} from '@fortawesome/free-solid-svg-icons'
 
 function Contacto() {
     return (
@@ -15,19 +17,19 @@ function Contacto() {
                 <div className="contactanos">
                     <h2>CONTACTANOS</h2>
                     <div>
-                        <h3>Telefonos</h3>
+                        <h3><FontAwesomeIcon icon={faPhone} />Telefonos</h3>
                         
-                            <li>fijo</li>
+                            <li>Fijo: +57 (601) 414-58-30</li>
                             <li>Corporativo</li>
                         
                     </div>
 
                     <div>
-                        <h2>CORREO</h2>
+                        <h2><FontAwesomeIcon icon={faEnvelope} />CORREO</h2>
                         <span>serviprecorte@gmail.com</span>
                     </div>
                     <div className="list">
-                        <h2>HORARIO DE ATENCION</h2>
+                        <h2><FontAwesomeIcon icon={faBusinessTime} />HORARIO DE ATENCION</h2>
                         
                             <li>lunes - viernes 8am -5pm</li>
                             <li>Sabado 8am - 1pm</li>
