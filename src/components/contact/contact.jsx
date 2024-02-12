@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="main-contact">
                 <div className="img-contact">
                     <img src={logo} alt="logo" />
-                    <h2><FontAwesomeIcon icon={faBusinessTime} />Carrera 66a # 4D -55 <br /> Barrio Pradera <br /> Bogota, Colombia</h2>
+                    <h3><FontAwesomeIcon icon={faBusinessTime} />Carrera 66a # 4D -55 <br /> Barrio Pradera <br /> Bogota, Colombia</h3>
                     <icon></icon>
                     <icon></icon>
                     <icon></icon>

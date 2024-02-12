@@ -12,15 +12,13 @@ const Home = () => {
         <div className="home-container">
       <section className="hero-section">
         <h1>Bienvenidos a I.P.I Serviprecorte Ltda</h1>
-        <button>Boton 1</button>
-        <button>Boton 2</button>
         <h2><b>30 Años de Excelencia en Productos Plásticos</b></h2>
       </section>
         <hr />
       <section className="features-section">
         <div className='div-info'>
-        <h2>Características destacadas</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos illum corporis commodi natus inventore, nulla, temporibus quia expedita consequatur hic labore veniam nesciunt quos!</p>
+        <h2>EL SERVICIO ES NUESTRA PRIORIDAD</h2>
+        <p><b>El servicio es crucial en una empresa de plásticos, ya que garantiza la satisfacción del cliente y fortalece las relaciones comerciales. Con tres décadas de experiencia, nuestra trayectoria refleja un compromiso inquebrantable con la excelencia y la innovación, asegurando productos de calidad y soluciones personalizadas para cada necesidad.</b></p>
         </div>
         <hr />
         <div className='div-img'>
@@ -48,7 +46,7 @@ const Home = () => {
                 <h3>imagen</h3>
             </div>
             <div>
-                <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                <h2>Contactanos y ha tu cotizacion personalmente</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veniam, suscipit numquam itaque vel optio excepturi, dolore temporibus adipisci pariatur quis saepe velit aut modi.</p>
             </div>
             <button>Button</button>
@@ -56,7 +54,6 @@ const Home = () => {
     </div>
     <br />
     <Contact />
-    <br />
     </main>
     
   );

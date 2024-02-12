@@ -6,13 +6,15 @@ import {faHouse, faAddressCard, faBoxesStacked, faPhone, faEnvelope, faBusinessT
 function Contacto() {
     return (
         <main className='contacto'>
-            <div className='img-container'>
+            {/* <div className='img-container'>
                 <h1>QUIENES SOMOS</h1>
                 <div>
                     <button>Botón 1</button>
                     <button>Botón 2</button>
                 </div>
-            </div>
+                <h1>QUIENES SOMOS</h1>
+            </div> */}
+            <h1>QUIENES SOMOS</h1>
             <section className="main-contacto">
                 <div className="contactanos">
                     <h2>CONTACTANOS</h2>
@@ -38,7 +40,7 @@ function Contacto() {
                     </div>
                 </div>
                 
-                <div className="main-form">
+                {/* <div className="main-form">
                     <h2>envia un mensaje</h2>
                     <p>El tiempo de respuesta es aproximadamente 24H aproximadamente</p>
                     <div>
@@ -58,7 +60,7 @@ function Contacto() {
                             <button type="submit">SUBMIT</button>
                         </form>
                     </div>
-                </div>
+                </div> */}
             </section>
         </main>
     );

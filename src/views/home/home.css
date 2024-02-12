@@ -2,10 +2,10 @@
 
 .img-container {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: darkolivegreen;
     text-align: center;
-    background: url(../../../public/orange.jpg);
+    background: url(../../../public/polipropileno.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,21 +13,19 @@
 }
 
 .home-container {
-    max-width: 920px;
+    max-width: 980px;
     margin: 0 auto;
     padding: 20px;
-    border: solid 3px green;
-    border-radius: 5%;
+    border: solid 2px green;
+    border-radius: 1%;
+    background-color: whitesmoke;
   }
   
   .hero-section {
     padding: 20px;
     text-align: center;
     border-radius: 5%;
-    background: url(../../../public/orange.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
   }
   
   .features-section {

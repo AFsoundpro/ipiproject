@@ -6,13 +6,14 @@ import circular from "/public/circular.jpg";
 function Nosotros() {
     return (
         <div className='nosotros'>
-            <div className='img-container'>
+            {/* <div className='img-container'>
                 <h1>QUIENES SOMOS</h1>
                 <div>
                     <button>Boton 1</button>
                     <button>Boton 2</button>
                 </div>
-            </div>
+            </div> */}
+            <h1>QUIENES SOMOS</h1>
             <section>
                 <div className="sec1">
                     <div className="secson1">
