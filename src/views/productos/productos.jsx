@@ -14,15 +14,15 @@ import perf from "/perf.webp"
 
 function Productos() {
     return (
-        <div className="productos-servicios-container">
-      <h1>Nuestros Servicios</h1>
-      <div className="cards-container">
-        <div className="card">
-          <img src={preco} alt="Producto 1" />
-          <h3>Precorte</h3>
-          <p><b>En rollos de alta y baja densidad, impresion centrada o continua y especiales</b></p>
-          <p><b>Cubre vestidos para lavanderia, laminas en polietileno y polipropileno</b></p>
-        </div>
+      <div className="productos-servicios-container">
+        <h1>Nuestros Servicios</h1>
+        <div className="cards-container">
+          <div className="card">
+            <img src={preco} alt="Producto 1" />
+            <h3>Precorte</h3>
+            <p><b>En rollos de alta y baja densidad, impresion centrada o continua y especiales</b></p>
+            <p><b>Cubre vestidos para lavanderia, laminas en polietileno y polipropileno</b></p>
+          </div>
         
         <div className="card">
           <img src={perf} alt="Producto 3" />
@@ -38,7 +38,7 @@ function Productos() {
         <div className="card">
           <img src={extru} alt="Producto 5" />
           <h3>Servicio de Extrusion de plastico</h3>
-          <p>La extrusión de rollos plásticos es un proceso de fabricación que implica la creación de películas plásticas continuas mediante la extrusión de material plástico a través de una boquilla.</p>
+          <p><b>La extrusión de rollos plásticos es un proceso de fabricación que implica la creación de películas plásticas continuas mediante la extrusión de material plástico a través de una boquilla.</b></p>
         </div>
       </div>
       <hr />
@@ -47,17 +47,17 @@ function Productos() {
         <div className="card">
           <img src={transparente} alt="Producto 1" />
           <h3>Rollos Tubulares</h3>
-          <p>Es un formato de suministro de bolsas plásticas que está dispuesto en forma de un rollo continuo y tubular es decir no esta precortado</p>
+          <p><b>Es un formato de suministro de bolsas plásticas que está dispuesto en forma de un rollo continuo y tubular es decir no esta precortado</b></p>
         </div>
         <div className="card">
           <img src={precorte} alt="Producto 2" />
           <h3>Rollos precortados</h3>
-          <p>Rollos precortados para empaque de carnes, granos, verduras, frutas; si es requerido se pueden perforar</p>
+          <p><b>Rollos precortados para empaque de carnes, granos, verduras, frutas; si es requerido se pueden perforar</b></p>
         </div>
         <div className="card">
           <img src={ensilar} alt="Producto 3" />
           <h3>Rollos para ensilar </h3>
-          <p>El proceso de ensilaje implica compactar el forraje recién cosechado en la bolsa de plástico, eliminando el oxígeno y creando un entorno anaeróbico que promueve la fermentación beneficiosa.</p>
+          <p><b>El proceso de ensilaje implica compactar el forraje recién cosechado en la bolsa de plástico, eliminando el oxígeno y creando un entorno anaeróbico que promueve la fermentación beneficiosa.</b></p>
         </div>
         <div className="card">
           <img src={invernadero} alt="Producto 4" />

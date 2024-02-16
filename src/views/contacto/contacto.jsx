@@ -14,28 +14,28 @@ function Contacto() {
                 </div>
                 <h1>QUIENES SOMOS</h1>
             </div> */}
-            <h1>QUIENES SOMOS</h1>
+            <h1>CONTACTANOS</h1>
             <section className="main-contacto">
                 <div className="contactanos">
                     <h2>CONTACTANOS</h2>
                     <div>
                         <h3><FontAwesomeIcon icon={faPhone} />Telefonos</h3>
                         
-                            <li>Fijo: +57 (601) 414-58-30</li>
-                            <li>Corporativo</li>
+                            <li><b>Fijo: +57 (601) 414-58-30</b></li>
+                            <li><b>Corporativo</b></li>
                         
                     </div>
 
                     <div>
                         <h2><FontAwesomeIcon icon={faEnvelope} />CORREO</h2>
-                        <span>serviprecorte@gmail.com</span>
+                        <p><b>serviprecorte@gmail.com</b></p>
                     </div>
                     <div className="list">
                         <h2><FontAwesomeIcon icon={faBusinessTime} />HORARIO DE ATENCION</h2>
                         
-                            <li>lunes - viernes 8am -5pm</li>
-                            <li>Sabado 8am - 1pm</li>
-                            <li>Domingo - Cerrado</li>
+                            <li><b>lunes - viernes 8am -5pm</b></li>
+                            <li><b>Sabado 8am - 1pm</b></li>
+                            <li><b>Domingo - Cerrado</b></li>
                         
                     </div>
                 </div>

@@ -6,7 +6,7 @@
 
 .img-contact {
     width: 33%;
-    border: solid 3px darkorange;
+    /* border: solid 3px darkorange; */
 }
 
 .img-contact img {
@@ -16,7 +16,7 @@
 
 .contact-contact {
     width: 33%;
-    border: solid 3px darkcyan;
+    /* border: solid 3px darkcyan; */
 }
 
 .contact-products {

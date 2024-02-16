@@ -18,25 +18,26 @@ const Home = () => {
       <section className="features-section">
         <div className='div-info'>
         <h2>EL SERVICIO ES NUESTRA PRIORIDAD</h2>
-        <p><b>El servicio es crucial en una empresa de plásticos, ya que garantiza la satisfacción del cliente y fortalece las relaciones comerciales. Con tres décadas de experiencia, nuestra trayectoria refleja un compromiso inquebrantable con la excelencia y la innovación, asegurando productos de calidad y soluciones personalizadas para cada necesidad.</b></p>
+        <p><b> Con tres décadas de experiencia, nuestra trayectoria refleja un compromiso inquebrantable con la excelencia y la innovación, asegurando productos de calidad y soluciones personalizadas para cada necesidad.</b></p>
+        <button>Button</button>
         </div>
-        <hr />
+        
         <div className='div-img'>
-            <button>Button</button>
-            <h2>Imagen</h2>
+            
         </div>
       </section>
       <hr />
       <section className='features-section'>
-        <div className='div-img'>
-            <button>Button</button>
-            <h2>Imagen</h2>
+        <div className='div-img2'>
+            
         </div>
-        <hr />
+        
       <div className='div-info'>
-        <h2>Características destacadas</h2>
+        <h2>Conoce nuestros productos y servicios</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos illum corporis commodi natus inventore, nulla, temporibus quia expedita consequatur hic labore veniam nesciunt quos!</p>
-        </div>  
+        <button>Button</button>
+        </div>
+        
       </section>
       <br />
       <hr />

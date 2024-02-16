@@ -49,8 +49,23 @@
     border: solid 2px green;
     background-color: whitesmoke;
     border-radius: 5%;
+    background: url(../../../public/rollo4.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
+  .div-img2 {
+    width: 650px;
+    height: auto;
+    border: solid 2px green;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    background: url(../../../public/rollo3.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .features-section h2 {
     color: #333;
   }

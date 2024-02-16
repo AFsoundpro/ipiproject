@@ -20,15 +20,15 @@ function Nosotros() {
                         <h2>DESDE 1992</h2>
                     </div>
                     <div className="secson2">
-                        <p>Desde 1992, en I.P.I Serviprecorte Ltda, hemos sido líderes en la fabricación de productos plásticos de primera calidad. Con tres décadas de experiencia, nos enorgullece ofrecer soluciones innovadoras y respetuosas con el medio ambiente.</p>
+                        <h3>Desde 1992, en I.P.I Serviprecorte Ltda, hemos sido líderes en la fabricación de productos plásticos de primera calidad.</h3>
                         <hr />
                         <h3>Compromiso Sostenible:</h3>
-                        <p>Pioneros en prácticas sostenibles, buscamos constantemente maneras de minimizar nuestro impacto ambiental. Ofrecemos productos plásticos reciclables y sostenibles para un futuro más verde.</p>
+                        <p><b>Pioneros en prácticas sostenibles, buscamos constantemente maneras de minimizar nuestro impacto ambiental. Ofrecemos productos plásticos reciclables y sostenibles para un futuro más verde.</b></p>
                         <hr />
                         <h3>Mirando al Futuro:</h3>
-                        <p>Celebramos tres décadas de logros, pero nuestra pasión por la innovación sigue siendo el motor que impulsa nuestro éxito. En I.P.I Serviprecorte Ltda, continuamos mirando hacia adelante, anticipando un futuro lleno de oportunidades y crecimiento.
+                        <p><b>Celebramos tres décadas de logros, pero nuestra pasión por la innovación sigue siendo el motor que impulsa nuestro éxito. En I.P.I Serviprecorte Ltda, continuamos mirando hacia adelante, anticipando un futuro lleno de oportunidades y crecimiento.
 
-                        Gracias por confiar en nosotros durante estos 30 años. Seguimos comprometidos con ofrecer productos plásticos de calidad y sostenibles para satisfacer sus necesidades en constante evolución.</p>
+                            Gracias por confiar en nosotros durante estos 30 años. Seguimos comprometidos con ofrecer productos plásticos de calidad y sostenibles para satisfacer sus necesidades en constante evolución.</b></p>
                     </div>
                 </div>
             </section>
@@ -36,11 +36,11 @@ function Nosotros() {
             <section className="mision">
                 <div className="misiondiv">
                     <h2>MISION</h2>
-                    <p>En nuestra empresa de productos plásticos, nos dedicamos a proporcionar soluciones de embalaje y productos plásticos de alta calidad, cumpliendo con los estándares más exigentes de la industria. Nos esforzamos por satisfacer las necesidades y expectativas de nuestros clientes, ofreciendo productos innovadores y respetuosos con el medio ambiente.</p>
+                    <p><b>En nuestra empresa de productos plásticos, nos dedicamos a proporcionar soluciones de embalaje y productos plásticos de alta calidad, cumpliendo con los estándares más exigentes de la industria. Nos esforzamos por satisfacer las necesidades y expectativas de nuestros clientes, ofreciendo productos innovadores y respetuosos con el medio ambiente.</b></p>
                 </div>
                 <div className="visiondiv">
                     <h2>VISION</h2>
-                    <p>Ser reconocidos como líderes en la industria de productos plásticos, destacando por nuestra innovación constante, compromiso con la sostenibilidad ambiental y la excelencia en la calidad de nuestros productos. Buscamos ser un referente en el desarrollo y aplicación de tecnologías avanzadas que contribuyan al bienestar de nuestros clientes, empleados y el entorno en el que operamos.</p>
+                    <p><b>Ser reconocidos como líderes en la industria de productos plásticos, destacando por nuestra innovación constante, compromiso con la sostenibilidad ambiental y la excelencia en la calidad de nuestros productos. Buscamos ser un referente en el desarrollo y aplicación de tecnologías avanzadas que contribuyan al bienestar de nuestros clientes, empleados y el entorno en el que operamos.</b></p>
                 </div>
             </section>
             <section className="valores">
@@ -92,8 +92,8 @@ function Nosotros() {
                 </div>
             </div>
             <br />
-            <br />
-            <br />
+
+
             <Contact />
         </div>
     );
