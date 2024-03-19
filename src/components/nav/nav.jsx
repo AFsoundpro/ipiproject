@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "../nav/nav.css"
-import logo from "/public/logo.png"
+import logo from "/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHouse, faAddressCard, faBoxesStacked, faPhone} from '@fortawesome/free-solid-svg-icons'
 

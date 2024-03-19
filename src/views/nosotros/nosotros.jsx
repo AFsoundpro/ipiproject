@@ -43,6 +43,7 @@ function Nosotros() {
                     <p><b>Ser reconocidos como líderes en la industria de productos plásticos, destacando por nuestra innovación constante, compromiso con la sostenibilidad ambiental y la excelencia en la calidad de nuestros productos. Buscamos ser un referente en el desarrollo y aplicación de tecnologías avanzadas que contribuyan al bienestar de nuestros clientes, empleados y el entorno en el que operamos.</b></p>
                 </div>
             </section>
+            <div className='img-container'></div>
             <section className="valores">
                 <h1>Valores</h1>
                 <icon></icon>
@@ -82,15 +83,9 @@ function Nosotros() {
                         <img src={circular} alt="IMG" />
                     </div>
                 </div>
+                
             </div>
             <hr />
-            <div className='img-container'>
-                <h1>imagen</h1>
-                <div>
-                    <button>Boton 1</button>
-                    <button>Boton 2</button>
-                </div>
-            </div>
             <br />
 
 

@@ -11,7 +11,7 @@ const Home = () => {
         <br />
         <div className="home-container">
       <section className="hero-section">
-        <h1>Bienvenidos a I.P.I Serviprecorte Ltda</h1>
+        {/* <h2>Bienvenidos a I.P.I Serviprecorte Ltda</h2> */}
         <h2><b>30 Años de Excelencia en Productos Plásticos</b></h2>
       </section>
         <hr />
@@ -26,7 +26,6 @@ const Home = () => {
             
         </div>
       </section>
-      <hr />
       <section className='features-section'>
         <div className='div-img2'>
             

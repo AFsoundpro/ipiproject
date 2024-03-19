@@ -17,7 +17,7 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
-    border: solid 2px greenyellow;
+    /* border: solid 2px greenyellow; */
     gap: 100px;
     align-items: center;
   }

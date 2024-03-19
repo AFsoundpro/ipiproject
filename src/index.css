@@ -17,6 +17,7 @@ body {
     font-family: 'Cute Font', sans-serif;
     font-size: 60px;
     color: orange;
+    align-items: center;
   }
 
   h3 {

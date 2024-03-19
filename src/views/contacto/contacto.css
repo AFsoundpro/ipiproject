@@ -1,22 +1,37 @@
 .main-contacto {
-    display: flex;
+    align-items: center;
     text-align: center;
     gap: 20px;
-}
-
-.contactanos {
-    border: solid 3px darkolivegreen;
-    padding: 30px;
-    width: 50%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .contactanos {
+    border: solid 5px darkgreen;
+    padding: 20px;
+    width: 80%; /* Cambiado a un porcentaje para hacerlo responsive */
+    max-width: 600px; /* Ancho máximo para evitar que se vuelva demasiado ancho en pantallas grandes */
+    margin: 40px auto; /* Margen superior e inferior automático y centrado horizontalmente */
     background-color: whitesmoke;
-}
-
-.main-form {
-    border: solid 3px darkolivegreen;
+    border-radius: 3em;
+  }
+  
+  .main-form {
+    border: solid 3px green;
     padding: 15px;
-    width: 50%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+    width: 80%; /* Cambiado a un porcentaje para hacerlo responsive */
+    max-width: 600px; /* Ancho máximo para evitar que se vuelva demasiado ancho en pantallas grandes */
+    margin: 40px auto; /* Margen superior e inferior automático y centrado horizontalmente */
+  }
+  
+  /* Media queries para hacerlo responsive en tres tamaños de pantalla */
+  @media (min-width: 768px) {
+    .contactanos, .main-form {
+      width: 60%; /* Ancho aumentado para pantallas medianas */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .contactanos, .main-form {
+      width: 50%; /* Ancho reducido para pantallas grandes */
+    }
+  }
