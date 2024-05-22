@@ -17,7 +17,7 @@ function Nosotros() {
             <section>
                 <div className="sec1">
                     <div className="secson1">
-                        <h2>DESDE 1992</h2>
+                        
                     </div>
                     <div className="secson2">
                         <h3>Desde 1992, en I.P.I Serviprecorte Ltda, hemos sido líderes en la fabricación de productos plásticos de primera calidad.</h3>

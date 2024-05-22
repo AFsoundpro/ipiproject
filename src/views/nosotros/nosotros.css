@@ -13,9 +13,9 @@
 }
 
 .secson1 {
-    width: 33%;
+    width: 40%;
     height: auto;
-    border: solid 5px green;
+    /* border: solid 5px green; */
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
@@ -24,6 +24,10 @@
     border-radius: 3em;
     align-items: center;
     justify-content: center;
+    background: url(../../../public/maquinae.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .secson1 h2 {

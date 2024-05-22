@@ -33,7 +33,7 @@ const Home = () => {
         
       <div className='div-info'>
         <h2>Conoce nuestros productos y servicios</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos illum corporis commodi natus inventore, nulla, temporibus quia expedita consequatur hic labore veniam nesciunt quos!</p>
+        <p>En I.P.I Serviprecorte SAS, nos especializamos en la extrusión de bolsas y el precorte de polietileno de alta y baja densidad. Utilizamos tecnología avanzada para garantizar productos de la más alta calidad, adaptados a sus necesidades. Ofrecemos soluciones innovadoras y sostenibles para diversas aplicaciones industriales y comerciales. Contáctenos para más información.</p>
         <button>Button</button>
         </div>
         
@@ -43,11 +43,11 @@ const Home = () => {
       <br />
         <section className='sec-3'>
             <div className='circle-sec'>
-                <h3>imagen</h3>
+                
             </div>
             <div>
                 <h2>Contactanos y ha tu cotizacion personalmente</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veniam, suscipit numquam itaque vel optio excepturi, dolore temporibus adipisci pariatur quis saepe velit aut modi.</p>
+                <p> Descubra la calidad y precisión de nuestros servicios en I.P.I Serviprecorte SAS. Nos especializamos en extrusión de bolsas y precorte de polietileno de alta y baja densidad, adaptándonos a sus necesidades específicas. ¡Solicite su cotización hoy mismo y permita que nuestros expertos le brinden soluciones innovadoras y eficientes para su negocio!</p>
             </div>
             <button>Button</button>
         </section>  
