@@ -35,7 +35,7 @@
   }
 
   .div-info {
-    border: solid 2px gray;
+    border: solid 5px green;
     border: 3em;
     text-align: center;
     width: 650px;
@@ -47,7 +47,7 @@
   .div-img {
     width: 650px;
     height: auto;
-    border: solid 2px green;
+    border: solid 5px green;
     border-radius: 3em;
     background-color: whitesmoke;
     border-radius: 5%;
@@ -60,7 +60,7 @@
   .div-img2 {
     width: 650px;
     height: auto;
-    border: solid 2px green;
+    border: solid 5px green;
     background-color: whitesmoke;
     border-radius: 5%;
     background: url(../../../public/rollo3.jpeg);
@@ -97,7 +97,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid 2px green;
+    border: solid 5px green;
     margin: auto;
     border-radius: 50%;
   }

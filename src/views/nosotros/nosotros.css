@@ -67,7 +67,15 @@
 }
 
 .img-container {
-    border-radius: 3em;
+    width: 450px;
+    height: 450px;
+    background: url(../../../public/polipropileno.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 5px green;
+    margin: auto;
+    border-radius: 50%;
 }
 
 .valores {

@@ -6,13 +6,6 @@ import circular from "/public/circular.jpg";
 function Nosotros() {
     return (
         <div className='nosotros'>
-            {/* <div className='img-container'>
-                <h1>QUIENES SOMOS</h1>
-                <div>
-                    <button>Boton 1</button>
-                    <button>Boton 2</button>
-                </div>
-            </div> */}
             <h1>QUIENES SOMOS</h1>
             <section>
                 <div className="sec1">
@@ -21,10 +14,10 @@ function Nosotros() {
                     </div>
                     <div className="secson2">
                         <h3>Desde 1992, en I.P.I Serviprecorte Ltda, hemos sido líderes en la fabricación de productos plásticos de primera calidad.</h3>
-                        <hr />
+                        <br />
                         <h3>Compromiso Sostenible:</h3>
                         <p><b>Pioneros en prácticas sostenibles, buscamos constantemente maneras de minimizar nuestro impacto ambiental. Ofrecemos productos plásticos reciclables y sostenibles para un futuro más verde.</b></p>
-                        <hr />
+                        <br />
                         <h3>Mirando al Futuro:</h3>
                         <p><b>Celebramos tres décadas de logros, pero nuestra pasión por la innovación sigue siendo el motor que impulsa nuestro éxito. En I.P.I Serviprecorte Ltda, continuamos mirando hacia adelante, anticipando un futuro lleno de oportunidades y crecimiento.
 
@@ -32,7 +25,7 @@ function Nosotros() {
                     </div>
                 </div>
             </section>
-            <hr />
+            <br />
             <section className="mision">
                 <div className="misiondiv">
                     <h2>MISION</h2>
@@ -52,7 +45,7 @@ function Nosotros() {
                 <icon></icon>
                 <icon></icon>
             </section>
-            <hr />
+            <br />
             <div className="centered-container">
                 <div className="main-recycle">
                     <div className="text-recycle">
